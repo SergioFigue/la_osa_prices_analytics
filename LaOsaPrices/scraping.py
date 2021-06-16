@@ -283,21 +283,21 @@ def updating_navarro():
         else:
             price_navarro = soup_navarro.find('span', {'class': 'price'}).text
 
-        if price_navarro is None:
+            if price_navarro is None:
 
-            precio = 'No disponible'
-            unidad = 'No disponible'
+                precio = 'No disponible'
+                unidad = 'No disponible'
 
-        else:
-            precio = re.findall('[0-9,]+', price_navarro)[0].replace(',', ('.'))
-            unidad = re.findall('(\€.*)', price_navarro)[0].strip()
+            else:
+                precio = re.findall('[0-9,]+', price_navarro)[0].replace(',', ('.'))
+                unidad = re.findall('(\€.*)', price_navarro)[0].strip()
 
-        print(product_id, '--', precio, '--', unidad)
+            print(product_id, '--', precio, '--', unidad)
 
-        producto = [v for k, v in products_dict.items() if k == product_id]
+            producto = [v for k, v in products_dict.items() if k == product_id]
 
-        # Adding new line to the dataframe
-        daily_navarro_dataframe.loc[len(daily_navarro_dataframe)] = [product_id, producto[0], tienda, precio, unidad,
+            # Adding new line to the dataframe
+            daily_navarro_dataframe.loc[len(daily_navarro_dataframe)] = [product_id, producto[0], tienda, precio, unidad,
                                                                      fecha]
     return daily_navarro_dataframe
 
@@ -355,19 +355,25 @@ def updating_carrefour():
         time.sleep(30)
         html = requests.get(url).text
         soup_carrefour = BeautifulSoup(html, 'lxml')
-        price_carrefour = soup_carrefour.find(('div'), {'class': 'buybox__price-per-unit'}).text.strip().replace(',',                                                                                                         '.')
 
-        if price_carrefour is None:
-            precio = 'No disponible'
-            unidad = 'No disponible'
+        try:
+            price_carrefour = soup_carrefour.find('div', {'class': 'buybox__price-per-unit'}).text.strip().replace(',','.')
+        except AttributeError:
+            print('Carrefour scraper not working today')
+            pass
+
         else:
-            precio = price_carrefour.split()[0]
-            unidad = price_carrefour.split()[-1]
-            print(product_id, '--', precio, '--', unidad)
+            if price_carrefour is None:
+                precio = 'No disponible'
+                unidad = 'No disponible'
+            else:
+                precio = price_carrefour.split()[0]
+                unidad = price_carrefour.split()[-1]
+                print(product_id, '--', precio, '--', unidad)
 
-        producto = [v for k, v in products_dict.items() if k == product_id]
+                producto = [v for k, v in products_dict.items() if k == product_id]
 
-        # Adding new line to the dataframe
-        daily_carrefour_dataframe.loc[len(daily_carrefour_dataframe)] = [product_id, producto[0], tienda, precio,
-                                                                         unidad, fecha]
+                # Adding new line to the dataframe
+                daily_carrefour_dataframe.loc[len(daily_carrefour_dataframe)] = [product_id, producto[0], tienda, precio,
+                                                                                 unidad, fecha]
     return daily_carrefour_dataframe

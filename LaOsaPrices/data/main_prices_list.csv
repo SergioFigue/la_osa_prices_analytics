@@ -1,7 +1,59 @@
 id,producto,tienda,precio,unidad,fecha
-101,tomate ensalada,La Osa,3.80,€/Kg.,domingo 23:52 13-6-2021
-102,plátano canario,La Osa,2.00,€/Kg.,domingo 23:52 13-6-2021
+101,tomate ensalada,La Osa,3.8,€/Kg.,domingo 23:52 13-6-2021
+102,plátano canario,La Osa,2.0,€/Kg.,domingo 23:52 13-6-2021
 103,manzana royal,La Osa,2.85,€/Kg.,domingo 23:52 13-6-2021
-104,calabacín,La Osa,1.80,€/Kg.,domingo 23:52 13-6-2021
-105,zanahoria,La Osa,1.80,€/Kg.,domingo 23:52 13-6-2021
-106,patata blanca,La Osa,1.80,€/Kg.,domingo 23:52 13-6-2021
+104,calabacín,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+105,zanahoria,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+106,patata blanca,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+,tomate ensalada,La Osa,3.8,€/Kg.,domingo 23:52 13-6-2021
+,plátano canario,La Osa,2.0,€/Kg.,domingo 23:52 13-6-2021
+,manzana royal,La Osa,2.85,€/Kg.,domingo 23:52 13-6-2021
+,calabacín,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+,zanahoria,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+,patata blanca,La Osa,1.8,€/Kg.,domingo 23:52 13-6-2021
+101,tomate ensalada,Dia,3.05,€/Kg.,Wednesday 10:38 16-06-2021
+102,plátano canario,Dia,2.59,€/Kg.,Wednesday 10:38 16-06-2021
+103,manzana royal,Dia,No disponible,No disponible,Wednesday 10:38 16-06-2021
+104,calabacín,Dia,No disponible,No disponible,Wednesday 10:38 16-06-2021
+105,zanahoria,Dia,2.58,€/Kg.,Wednesday 10:38 16-06-2021
+703,YoSoy - Avena (1l.),Dia,1.45,€/l.,Wednesday 10:38 16-06-2021
+705,Puleva Eco – Leche semi (1l.),Dia,1.35,€/l.,Wednesday 10:38 16-06-2021
+1201,Mahou Clásica lata(33cl),Dia,1.88,€/l.,Wednesday 10:38 16-06-2021
+101,tomate ensalada,Eroski,"3,56",1 KILO,Wednesday 10:38 16-06-2021
+102,plátano canario,Eroski,2.99,1 KILO,Wednesday 10:38 16-06-2021
+103,manzana royal,Eroski,No disponible,No disponible,Wednesday 10:38 16-06-2021
+104,calabacín,Eroski,"2,30",1 KILO,Wednesday 10:38 16-06-2021
+105,zanahoria,Eroski,"2,48",1 KILO,Wednesday 10:38 16-06-2021
+106,patata blanca,Eroski,2.39,1 KILO,Wednesday 10:38 16-06-2021
+501,Ethiquable – Negro 75% cacao (100gr.),Eroski,"27,90",1 KILO,Wednesday 10:38 16-06-2021
+703,YoSoy - Avena (1l.),Eroski,1.40,1 KILO,Wednesday 10:38 16-06-2021
+705,Puleva Eco – Leche semi (1l.),Eroski,1.34,1 KILO,Wednesday 10:38 16-06-2021
+707,Cantero  Letur -  Kefir eco cabra (420gr.),Eroski,"7,57",1 KILO,Wednesday 10:38 16-06-2021
+901,Natursoy - Tortellini queso espinaca (250 gr.),Eroski,"13,00",1 KILO,Wednesday 10:38 16-06-2021
+1201,Mahou Clásica lata(33cl),Eroski,"1,79",1 LITRO,Wednesday 10:38 16-06-2021
+101,tomate ensalada,Alcampo,3.81,€/Kg,Wednesday 10:40 16-06-2021
+102,plátano canario,Alcampo,2.86,€/Kg,Wednesday 10:40 16-06-2021
+103,manzana royal,Alcampo,4.36,€/Kg,Wednesday 10:40 16-06-2021
+104,calabacín,Alcampo,2.81,€/Kg,Wednesday 10:40 16-06-2021
+105,zanahoria,Alcampo,2.84,€/Kg,Wednesday 10:40 16-06-2021
+106,patata blanca,Alcampo,1.74,€/Kg,Wednesday 10:40 16-06-2021
+302,La granja – mini magdalenas varios,Alcampo,14.05,€/Kg,Wednesday 10:40 16-06-2021
+303,Repostería Monjas – Rosquillas(p / u),Alcampo,5.80,€/Kg,Wednesday 10:40 16-06-2021
+304,La granja - Mármol,Alcampo,13.00,€/Kg,Wednesday 10:40 16-06-2021
+702,Soria Natural – Avena calcio(1l.),Alcampo,0.18,€/100ml,Wednesday 10:40 16-06-2021
+704,Xanceda Yogur eco desnatado fresa(2 uds.),Alcampo,7.48,€/Kg,Wednesday 10:40 16-06-2021
+705,Puleva Eco – Leche semi (1l.),Alcampo,0.98,€/Litro,Wednesday 10:40 16-06-2021
+707,Cantero  Letur -  Kefir eco cabra (420gr.),Alcampo,8.50,€/Kg,Wednesday 10:40 16-06-2021
+1001,Calasparra – Redondo (1Kg.),Alcampo,2.68,€/Kg,Wednesday 10:40 16-06-2021
+1101,Tierra Madre – Café Natural (250 gr.) o Biológico,Alcampo,9.04,€/Kg,Wednesday 10:40 16-06-2021
+1201,Mahou Clásica lata(33cl),Alcampo,1.72,€/Litro,Wednesday 10:40 16-06-2021
+202,El Granero Int. – Copos de avena s. integral (1Kg.),Navarro,2.09,€,Wednesday 10:41 16-06-2021
+402,El Granero Integral – Integral (500gr.),Navarro,3.09,€,Wednesday 10:41 16-06-2021
+501,Ethiquable – Negro 75% cacao (100gr.),Navarro,2.70,€,Wednesday 10:41 16-06-2021
+701,Ken – Leche vaca semi (1l.),Navarro,1.80,€,Wednesday 10:41 16-06-2021
+702,Soria Natural – Avena calcio(1l.),Navarro,1.60,€,Wednesday 10:41 16-06-2021
+704,Xanceda Yogur eco desnatado fresa(2 uds.),Navarro,2.05,€,Wednesday 10:41 16-06-2021
+706,Cantero Letur - Leche entera eco Vaca(1l.),Navarro,3.46,€,Wednesday 10:41 16-06-2021
+707,Cantero  Letur -  Kefir eco cabra (420gr.),Navarro,3.18,€,Wednesday 10:41 16-06-2021
+802,Pan do mar – Mejillones eco escabeche(115 gr.),Navarro,4.99,€,Wednesday 10:41 16-06-2021
+1002,Calasparra – Integral Bio(1 Kg.),Navarro,3.95,€,Wednesday 10:41 16-06-2021
